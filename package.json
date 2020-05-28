@@ -4,8 +4,9 @@
   "description": "minimal three.js VR app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open --env.NODE_ENV=dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js --env.NODE_ENV=prod"
   },
   "author": "",
   "license": "MIT",
