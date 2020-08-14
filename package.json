@@ -11,7 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.116.1"
+    "serialize-javascript": "^4.0.0",
+    "three": "^0.116.1",
+    "three-mesh-ui": "^1.3.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",
