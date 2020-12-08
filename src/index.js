@@ -5,6 +5,8 @@ import * as THREE from 'three';
 import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
 import { BoxLineGeometry } from 'three/examples/jsm/geometries/BoxLineGeometry.js';
 
+import ThreeMeshUI from 'three-mesh-ui';
+
 /* Create the container object, the scene */
 
 var scene = new THREE.Scene();
