@@ -11,8 +11,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "three": "^0.125.0",
-    "three-mesh-ui": "^4.4.8"
+    "three": "^0.128.0",
+    "three-mesh-ui": "^4.6.1"
   },
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",
